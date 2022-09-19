@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Red+Hat+Display:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Red Hat Display', sans-serif; */
+
+/* color-primario: #026F9A;
+color-2: #04D1D5;
+color-3: #4B4B4B; */
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -90px auto 45px auto;
+}
+
+.about>article {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+
+.about>article>div:first-child {
+    width: 500px;
+}
+
+.about>article p {
+    margin: 0 0 23px;
+    color: #4B4B4B;
+}
+
+.contentAbout a {
+    background-color: #026F9A;
+    border: 1px solid #026F9A;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.contentAbout a:hover {
+    background-color: #fff;
+    color: #026F9A;
+}
+
+.imagesAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagesAbout img:hover {
+    object-fit: contain;
+}
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) {
+    .about>article {
+        width: 900px;
+        gap: 40px;
+    }
+}
+
+/* Surfaces Pro*/
+@media screen and (max-width: 914px) {
+    .about>article {
+        width: 800px;
+        gap: 40px;
+    }
+}
+
+/* Surfaces Duo*/
+@media screen and (max-width: 720px) {
+    .about>article {
+        width: 650px;
+        gap: 40px;
+    }
+}
+
+/* iPad Mini*/
+@media screen and (max-width: 768px) {
+    .about>article {
+        width: 620px;
+        gap: 40px;
+    }
+}
+
+/* iPad Air*/
+@media screen and (max-width: 820px) {
+    .about>article {
+        width: 620px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .about>article {
+        width: 900px;
+        gap: 40px;
+    }
+}
+
+/* Pixel 5*/
+@media screen and (max-width: 851px) {
+    .about>article {
+        width: 620px;
+        gap: 40px;
+    }
+}
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .about>article {
+        width: 280px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .about>article>div:first-child {
+        width: 280px;
+    }
+
+    .about>article>div:first-child h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about>article {
+        width: 280px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .about>article>div:first-child {
+        width: 280px;
+    }
+
+    .about>article>div:first-child h2 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,33 @@
+.pageNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -90px auto 50px auto;
+    text-align: center;
+}
+
+.pageNotFound h1 {
+    color: #026F9A;
+}
+
+.pageNotFound p {
+    color: #4B4B4B;
+}
+
+.pageNotFound a {
+    background-color: #026F9A;
+    border: 1px solid #026F9A;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: .3s ease;
+    margin: 20px 0 0 0;
+}
+
+.pageNotFound a:hover {
+    background-color: #fff;
+    color: #026F9A;
+}

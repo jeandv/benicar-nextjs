@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Red+Hat+Display:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Red Hat Display', sans-serif; */
+
+/* color-primario: #026F9A;
+color-2: #04D1D5;
+color-3: #4B4B4B; */
+
+.service {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.service>div {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px auto 45px auto;
+}
+
+.service>div>h2,
+.service>div>p {
+    margin: 5px 0 0 0;
+}
+
+.service>div>div>p {
+    width: 450px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.serviceSlider button:before {
+    color: #026F9A;
+}
+
+.serviceSlider>div {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceSlider>div>div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.serviceSlider>div>div>div>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.serviceSlider .textSlide {
+    margin: 0 50px;
+}
+
+.serviceSlider .textSlide h3 {
+    font-size: 32px;
+    font-weight: 500;
+    list-style: 42px;
+    text-align: center;
+}
+
+.serviceSlider svg {
+    transform: scale(2);
+    color: #026F9A;
+    margin: 0 -20px;
+}
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) {
+    .service>div {
+        width: 900px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -17px;
+    }
+}
+
+/* Surfaces Pro*/
+@media screen and (max-width: 914px) {
+
+    .service>div {
+        width: 800px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -10px;
+    }
+}
+
+/* Surfaces Duo*/
+@media screen and (max-width: 720px) {
+    .service>div {
+        width: 100%;
+    }
+
+    .serviceSlider svg {
+        margin: 0 60px;
+    }
+}
+
+/* iPad Mini*/
+@media screen and (max-width: 768px) {
+
+    .service>div {
+        width: 630px;
+        margin-bottom: -20px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -20px;
+    }
+}
+
+/* iPad Air*/
+@media screen and (max-width: 820px) {
+
+    .service>div {
+        width: 630px;
+        margin-bottom: -20px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -20px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .service>div {
+        width: 900px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -17px;
+    }
+}
+
+/* Pixel 5*/
+@media screen and (max-width: 851px) {
+
+    .service>div {
+        width: 630px;
+        margin-bottom: -20px;
+    }
+
+    .serviceSlider svg {
+        margin: 0 -20px;
+    }
+}
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .service {
+        height: 450px;
+        justify-content: start;
+    }
+
+    .service>div {
+        width: 280px;
+        margin-bottom: -20px;
+    }
+
+    .service>div h2 {
+        margin: 30px 0;
+        font-size: 25px;
+    }
+
+    .serviceSlider svg {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .serviceSlider>div>div>div>div>div {
+        flex-direction: column;
+        height: 140%;
+    }
+
+    .serviceSlider .textSlide h3 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .serviceSlider .textSlide p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .serviceSlider .textSlide {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .service {
+        height: 450px;
+        justify-content: start;
+    }
+
+    .service>div {
+        width: 280px;
+        margin-bottom: -20px;
+    }
+
+    .service>div h2 {
+        margin: 30px 0;
+        font-size: 25px;
+    }
+
+    .serviceSlider svg {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .serviceSlider>div>div>div>div>div {
+        flex-direction: column;
+        height: 140%;
+    }
+
+    .serviceSlider .textSlide h3 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .serviceSlider .textSlide p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .serviceSlider .textSlide {
+        height: 500px;
+    }
+
+}
