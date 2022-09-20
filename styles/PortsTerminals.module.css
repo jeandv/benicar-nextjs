@@ -121,3 +121,14 @@ color-3: #4B4B4B; */
         margin: 0 0 -7px 0;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .PortsTerminals>div {
+        width: 230px;
+    }
+
+    .PortsTerminals h2 {
+        font-size: 23px;
+        margin: 0 0 -7px 0;
+    }
+}

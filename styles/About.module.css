@@ -148,3 +148,19 @@ color-3: #4B4B4B; */
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .about>article {
+        width: 230px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .about>article>div:first-child {
+        width: 230px;
+    }
+
+    .about>article>div:first-child h2 {
+        font-size: 23px;
+    }
+}

@@ -194,3 +194,28 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 280px) {
+
+    .formContactSection>div,
+    .formCont {
+        width: 230px;
+    }
+
+    .formCont {
+        width: 230px;
+    }
+
+    .formCont form>div {
+        width: 230px;
+    }
+
+    .formContactSection h2 {
+        font-size: 23px;
+        margin: 0 0 5px 0;
+    }
+
+    .formContactSection p {
+        font-size: 12px;
+    }
+}

@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import Styles from '../styles/Hero.module.css';
+import { motion } from 'framer-motion';
 
 export const Hero = ({ title }) => {
 
@@ -8,7 +9,17 @@ export const Hero = ({ title }) => {
 
     return (
         <section className={Styles.heroWelcome}>
-            <h1>{title}</h1>
+            <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{
+                    duration: 0.2,
+                    delayChildren: 0.5,
+                    type: "tween",
+                    repeat: false,
+                    ease: "easeOut"
+                }}>
+                <h1>{title}</h1>
+            </motion.div>
             <video autoPlay muted playsInline loop
                 className={Styles.backgroundVideo}
                 src='/benicar-video.mp4'

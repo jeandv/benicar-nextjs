@@ -181,3 +181,23 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .footer {
+        padding: 2px 0;
+    }
+
+    .containerFooter {
+        width: 230px;
+    }
+
+    .boxFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxFooter .terms p {
+        font-size: 12px;
+    }
+}

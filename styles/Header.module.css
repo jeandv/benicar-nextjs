@@ -201,3 +201,26 @@ color-3: #4B4B4B; */
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .header>div {
+        width: 230px;
+        gap: 45px;
+    }
+
+    .header div div:first-child {
+        position: relative;
+        right: 28px;
+        width: 160px;
+    }
+
+    .header a {
+        font-size: 6px;
+    }
+
+    .navItemsHeader {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}

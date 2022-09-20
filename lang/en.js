@@ -27,67 +27,67 @@ export const English = {
         slider: [
             {
                 id: 1,
-                image: "/sli1.png",
+                image: "/agente-puerto.jpg",
                 title: "Port Agents",
                 description: "Representation of all type of vessels, offshore platforms, drilling units and more."
             },
             {
                 id: 2,
-                image: "/sli2.png",
+                image: "/courier.jpg",
                 title: "Owners Agents",
                 description: "Crew changes, medical assistance, technicians/superintendents visits and courier services."
             },
             {
                 id: 3,
-                image: "/sli3.png",
+                image: "/abordo.jpg",
                 title: "Supplies",
                 description: "Provisions, bonded, stores, nautical charts and publications, fresh water, marine paints, PPE and more."
             },
             {
                 id: 4,
-                image: "/sli4.png",
+                image: "/lubricantes.jpg",
                 title: "Lub-Oil procurement and supply",
                 description: ""
             },
             {
                 id: 5,
-                image: "/sli5.png",
+                image: "/desechos.jpg",
                 title: "Garbage disposal",
                 description: ""
             },
             {
                 id: 6,
-                image: "/sli6.png",
+                image: "/lancha.jpg",
                 title: "Boat service",
                 description: ""
             },
             {
                 id: 7,
-                image: "/sli7.png",
+                image: "/slops.jpeg",
                 title: "Slops and Sludge disposal",
                 description: ""
             },
             {
                 id: 8,
-                image: "/sli8.png",
+                image: "/salvavidas.jpg",
                 title: "Liferafts service and certification",
                 description: ""
             },
             {
                 id: 9,
-                image: "/sli9.png",
+                image: "/submarina.jpg",
                 title: "Underwater inspections and cleanings",
                 description: "Thru certified diving companies and equipment."
             },
             {
                 id: 10,
-                image: "/sli10.png",
+                image: "/fumigacion.jpg",
                 title: "Fumigation service on board",
                 description: ""
             },
             {
                 id: 11,
-                image: "/sli11.png",
+                image: "/reparaciones.webp",
                 title: "Rapairs onboard or ashore",
                 description: "electrical motors, office equipments and more."
             }

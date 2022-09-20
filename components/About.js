@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Styles from '../styles/About.module.css';
 import { useLanguage } from '../helpers/useLanguage';
+import { motion } from 'framer-motion';
 
 export const About = React.memo(() => {
 
@@ -21,23 +22,53 @@ export const About = React.memo(() => {
                 <div className={Styles.contentAbout}>
                     <h2>{selectedLanguage.about.title}</h2>
                     <div>{renderAboutContent()}</div>
-                    <Link href='/contact'>
-                        <a>{selectedLanguage.about.buttonTitle}</a>
-                    </Link>
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{
+                            duration: 0.2,
+                            delayChildren: 0.2,
+                            type: "tween",
+                            repeat: false,
+                            ease: "easeOut"
+                        }}>
+                        <Link href='/contact'>
+                            <a>{selectedLanguage.about.buttonTitle}</a>
+                        </Link>
+                    </motion.div>
                 </div>
                 <div className={Styles.imagesAbout}>
-                    <Image className={Styles.imageAbout}
-                        src="/about-1.jpg"
-                        alt="benicar-about"
-                        width={200}
-                        height={250}
-                        objectFit='cover' />
-                    <Image className={Styles.imageAbout}
-                        src="/about-2.jpg"
-                        alt="benicar-about"
-                        width={200}
-                        height={350}
-                        objectFit='cover' />
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{
+                            duration: 0.2,
+                            delayChildren: 0.5,
+                            type: "tween",
+                            repeat: false,
+                            ease: "easeOut"
+                        }}>
+                        <Image className={Styles.imageAbout}
+                            src="/about-1.jpg"
+                            alt="benicar-about"
+                            width={200}
+                            height={250}
+                            objectFit='cover' />
+                    </motion.div>
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{
+                            duration: 0.5,
+                            delayChildren: 0.5,
+                            type: "tween",
+                            repeat: false,
+                            ease: "easeOut"
+                        }}>
+                        <Image className={Styles.imageAbout}
+                            src="/about-2.jpg"
+                            alt="benicar-about"
+                            width={200}
+                            height={350}
+                            objectFit='cover' />
+                    </motion.div>
                 </div>
             </article>
         </section>

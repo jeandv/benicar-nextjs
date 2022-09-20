@@ -27,67 +27,67 @@ export const Spanish = {
         slider: [
             {
                 id: 1,
-                image: "/sli1.png",
+                image: "/agente-puerto.jpg",
                 title: 'Agentes de Puerto',
                 description: 'Representación de todo tipo de embarcaciones.'
             },
             {
                 id: 2,
-                image: "/sli2.png",
+                image: "/courier.jpg",
                 title: 'Agentes Protectores',
                 description: 'Cambios de tripulantes, atención médica, atención de técnicos y superintendentes, servicio de courier y más.'
             },
             {
                 id: 3,
-                image: "/sli3.png",
+                image: "/abordo.jpg",
                 title: 'Entregas abordo',
                 description: 'Provisiones, bondega, repuestos, cartas náuticas, publicaciones, agua fresca, pinturas marinas, EPP y más.'
             },
             {
                 id: 4,
-                image: "/sli4.png",
+                image: "/lubricantes.jpg",
                 title: 'Lubricantes',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 5,
-                image: "/sli5.png",
+                image: "/desechos.jpg",
                 title: 'Desembarque de Basura',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 6,
-                image: "/sli6.png",
+                image: "/lancha.jpg",
                 title: 'Servicios de Lancha',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 7,
-                image: "/sli7.png",
+                image: "/slops.jpeg",
                 title: 'Descarga de Slops y Sludge',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 8,
-                image: "/sli8.png",
+                image: "/salvavidas.jpg",
                 title: 'Servicio y Certificación de Balsas Salvavidas',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 9,
-                image: "/sli9.png",
+                image: "/submarina.jpg",
                 title: 'Inspecciones Subacuáticas y Limpiezas',
                 description: 'A través de empresas certificadas.'
             },
             {
                 id: 10,
-                image: "/sli10.png",
+                image: "/fumigacion.jpg",
                 title: 'Servicio de Fumigación',
-                description: 'Sabemos que en el mundo del desarrollo no todos los que dicen ser programadores pueden estar a la altura. No queremos decir que '
+                description: ''
             },
             {
                 id: 11,
-                image: "/sli11.png",
+                image: "/reparaciones.webp",
                 title: 'Reparaciones abordo o en tierra',
                 description: 'Motores eléctricos, equipos de oficina y más.'
             }
