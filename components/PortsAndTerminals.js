@@ -4,7 +4,7 @@ import Styles from '../styles/PortsTerminals.module.css';
 import { useLanguage } from '../helpers/useLanguage';
 import { motion } from 'framer-motion';
 
-export const PortsAndTerminals = React.memo(() => {
+export const PortsAndTerminals = React.memo(({ margin = '' }) => {
 
     const { selectedLanguage } = useLanguage();
 
@@ -27,7 +27,7 @@ export const PortsAndTerminals = React.memo(() => {
         ));
 
     return (
-        <section className={Styles.PortsTerminals}>
+        <section className={Styles.PortsTerminals} style={{ marginTop: margin }}>
             <div>
                 <h2>{selectedLanguage.portsAndTerminals.title}</h2>
             </div>

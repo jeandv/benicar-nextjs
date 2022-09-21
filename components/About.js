@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import Styles from '../styles/About.module.css';
 import { useLanguage } from '../helpers/useLanguage';
@@ -31,9 +30,7 @@ export const About = React.memo(() => {
                             repeat: false,
                             ease: "easeOut"
                         }}>
-                        <Link href='/contact'>
-                            <a>{selectedLanguage.about.buttonTitle}</a>
-                        </Link>
+                        <a href='#contact'>{selectedLanguage.about.buttonTitle}</a>
                     </motion.div>
                 </div>
                 <div className={Styles.imagesAbout}>

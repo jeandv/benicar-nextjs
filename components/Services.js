@@ -7,7 +7,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 import { useLanguage } from '../helpers/useLanguage';
 import Slider from "react-slick";
 
-export const Services = React.memo(({ backgroundColor = '#F4F5F8' }) => {
+export const Services = React.memo(({ backgroundColor = '#F4F5F8', margin = '' }) => {
 
   const { selectedLanguage } = useLanguage();
 
@@ -38,7 +38,7 @@ export const Services = React.memo(({ backgroundColor = '#F4F5F8' }) => {
     ));
 
   return (
-    <section className={Styles.service} style={{ backgroundColor: backgroundColor }}>
+    <section className={Styles.service} style={{ backgroundColor: backgroundColor, marginTop: margin }}>
       <div>
         <h2>{selectedLanguage.services.subtitle}</h2>
       </div>

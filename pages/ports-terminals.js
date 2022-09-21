@@ -19,7 +19,7 @@ const portsTerminals = React.memo(() => {
             <Header />
             <main>
                 <Hero title={seoInformation.titleBanner} />
-                <PortsAndTerminals />
+                <PortsAndTerminals margin='-115px' />
                 <FormContact />
             </main>
             <Footer />
